@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intercambio Internacional - UANL</title>
+    <style>
+        
+        {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f3f4f6;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #2a3eb1;
+            color:rgb(184, 248, 9);
+            width: 100%;
+            text-align: center;
+            padding: 1.5em 0;
+        }
+        h1, h2 {
+            margin-bottom: 0.5em;
+        }
+        p, ul {
+            line-height: 1.6;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 2em auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5em;
+        }
+        
+        .section {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 2em;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .section:hover {
+            transform: translateY(-5px);
+        }
+        .section h2 {
+            color: #2a3eb1;
+            font-size: 1.2em;
+            margin-bottom: 0.8em;
+        }
+        .section ul {
+            padding-left: 1.2em;
+            list-style-type: disc;
+        }
+       /
+        footer {
+            padding: 1em;
+            font-size: 0.9em;
+        }
+        footer a {
+            color: #ffcc00;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        footer a:hover {
+            color: #ffffff;
+        }
+        
+        a {
+            color: #2a3eb1;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Intercambio Internacional de Estudiantes de la UANL</h1>
+    </header>
+
+    <div class="container">
+        <div class="section">
+            <h2>Descripción del Programa</h2>
+            <p>
+                A través del programa de movilidad, los estudiantes de la UANL pueden continuar sus estudios en el extranjero
+                mediante una estancia de un semestre a un año, gracias a acuerdos de colaboración con instituciones internacionales.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Requisitos Generales</h2>
+            <ul>
+                <li>Formato de solicitud con fotografía (UANL).</li>
+                <li>Carta de motivos dirigida a la universidad destino.</li>
+                <li>Carta compromiso y curriculum vitae.</li>
+                <li>Carta de postulación del director(a) de la dependencia.</li>
+                <li>Licenciatura: 50% de los créditos aprobados.</li>
+                <li>Posgrado: haber aprobado el primer grado escolar.</li>
+                <li>Promedio mínimo de 85 y desempeño sobresaliente.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Documentación Académica</h2>
+            <ul>
+                <li>Certificación del subdirector(a) académico.</li>
+                <li>Unidades de aprendizaje equivalentes.</li>
+                <li>Registrar la carga horaria mínima.</li>
+                <li>Kardex (certificado y traducido si se requiere).</li>
+                <li>Contenido analítico de unidades.</li>
+                <li>Autorización de unidades (firmada por la Comisión Académica).</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Requisitos de Idioma</h2>
+            <ul>
+                <li>Inglés: TOEFL iBT (mínimo 80 puntos).</li>
+                <li>Francés: DELF (B2).</li>
+                <li>Alemán: nivel B2 (intermedio alto).</li>
+                <li>Otros idiomas: dominio del idioma del país destino.</li>
+                <li>Pasaporte con vigencia mínima de 6 meses.</li>
+                <li>Copia del CURP.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Documentación Adicional al ser Aceptado</h2>
+            <ul>
+                <li>Carta de buena salud (exámenes médicos).</li>
+                <li>Estudio psicológico y socioeconómico.</li>
+                <li>Seguro de gastos médicos internacional.</li>
+                <li>Copia de visa y otros documentos requeridos.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Observaciones</h2>
+            <p>
+                En caso de aplicar para un país con idioma diferente al español, los puntos 2, 4 y 12 deben entregarse en ambos idiomas.
+                Enviar la documentación por correo electrónico en PDF (resolución media) y entregar los documentos físicos en la Dirección de Intercambio Académico.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Contacto para Mayor Información</h2>
+            <p>
+                <strong>Intercambio a España y países con segundo idioma:</strong><br>
+                Lic. Karol Hernández<br>
+                Teléfono: 81 8329-4000 ext. 6567<br>
+                Correo electrónico: <a href="mailto:karol.hernandezp@uanl.mx">karol.hernandezp@uanl.mx</a>
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Para mayor información visita: <a href="https://www.ugr.es/" target="_blank">https://www.ugr.es/</a></p>
+        <script>
+            alert("PARA MAYOR INFORMACIÓN VISITA: https://www.ugr.es/");
+        </script>
+    </footer>
+</body>
+</html>
+
+
+
